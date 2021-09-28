@@ -1,0 +1,53 @@
+.skills__container{
+    row-gap: 0;
+}
+.skills__arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+
+
+.skills__titles{
+    display: flex;
+justify-content: space-between;
+margin-bottom: var(--mb-0-1);
+}
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar{
+    background-color:rgb(227, 225, 233);
+}
+
+.skills__percentage
+{
+    display: block;
+    background-color: rgb(21, 5, 100);
+}
+
+.skills__html{
+    width: 80%;
+}
+
+.skills__css{
+    width: 60%;
+}
+
+.skills__js{
+    width: 30%;
+}
+.skills__c{
+    width: 85%;
+}
+
+.skills__java{
+    width: 65%;
+}
